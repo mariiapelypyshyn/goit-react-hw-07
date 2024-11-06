@@ -58,10 +58,6 @@ const INITIAL_STATE = {
         state.loading = false;
          state.error = null;
           state.items = state.items.filter(item => item.id !== action.payload.id);
-      //   const index = state.items.findIndex(
-      //     contact => contact.id === action.payload.id
-      //   );
-      //   state.items.splice(index, 1);
       })
      .addCase(deleteContact.rejected, (state, action) => {
         state.loading = false;

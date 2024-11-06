@@ -6,7 +6,6 @@ const Contact = ({ contact }) => {
   const dispatch = useDispatch();
   
  const onDeleteContact = () => {
-  //  const action = deleteContact(contactId);
     dispatch(deleteContact(contact.id));
   }
   

@@ -1,5 +1,4 @@
 import { Form, Formik, Field, ErrorMessage } from 'formik'
-// import * as Yup from 'yup';
 import { AddContactSchema } from '../../utils/contactform';
 import css from "./ContactForm.module.css";
 import { useDispatch } from 'react-redux';
@@ -54,4 +53,4 @@ const ContactForm = () => {
   )
 }
 
-export default ContactForm
+export default ContactForm;
